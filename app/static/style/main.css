@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	
+}
+
+#hot-bar-container {
+	padding: 1em;
+	background: #FAFAFA;
+}
+
+#hot-bar {
+	font-size: 3rem;
+	align-content: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -5px;
+}
+
+.hot-bar-items {
+	display: flex;
+	align-items: center;
+	margin: 0 5px;
+}
+
+#menu-icon {
+	width: 3rem;
+	height: 3rem;
+}
+
+#accounts {
+
+}

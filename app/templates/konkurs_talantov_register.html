@@ -1,0 +1,21 @@
+﻿{% extends 'konkurs_talantov_accounts.html' %}
+
+{% block content %}
+<div id="hotbar"><h3>Регистрация</h3></div>
+<div id="form-container">
+<form method="post">
+	<label for="email">Имя:</label>
+	<input type="text" name="name" id="name" required />
+	<label for="email">Фамилия:</label>
+	<input type="text" name="surname" id="surname" required />
+
+	<label for="email">Почта:</label>
+	<input type="email" name="email" id="email" required />
+	<label for="password">Пароль:</label>
+	<input type="password" name="password" id="password" required />
+	<label for="password">Подтвердите пароль:</label>
+	<input type="password" name="validation" id="validation" required />
+	<input type="submit" value="Зарегистрироваться">
+</from>
+</div>
+{% endblock %}

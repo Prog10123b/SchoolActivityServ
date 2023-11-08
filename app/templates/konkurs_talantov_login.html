@@ -1,0 +1,15 @@
+﻿{% extends 'konkurs_talantov_accounts.html' %}
+
+{% block content %}
+<div id="hotbar"><h3>Вход</h3></div>
+<div id="form-container">
+<form method="post">
+	<label for="email">Почта:</label>
+	<input type="email" name="email" id="email" required />
+	<label for="password">Пароль:</label>
+	<input type="password" name="password" id="password" required />
+	<input type="submit" value="Войти">
+</from>
+<a href="/konkurs_talantov/register">Нет аккаунта? Зарегистрироваться.</a>
+</div>
+{% endblock %}
